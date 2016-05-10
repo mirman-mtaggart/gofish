@@ -23,12 +23,3 @@ class Player
     @hand = []
   end
 end
-
-class Phase
-  def initialize(&block)
-    @block = &block
-  end
-  def play()
-    @block.call()
-  end
-end
