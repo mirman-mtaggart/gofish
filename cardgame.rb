@@ -3,7 +3,7 @@ require_relative "cards"
 class Game
   attr_accessor :name, :players, :phases, :won
   def initialize(name,deck,players,phases)
-    # Init variabls
+    # Init variables
 
   end
 end
